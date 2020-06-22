@@ -12,7 +12,7 @@ object Test {
         foo(100, arr1(0), arr1(1))
         foo(100, arr1: _*)
     
-        val arr: Array[Int] = map(arr1, x => x * x)
+        val arr: Array[Int] = map(arr1, x => x * 10)
         println(arr.toList)
         
         
